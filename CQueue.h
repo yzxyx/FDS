@@ -1,9 +1,4 @@
-/*
- * CQueue.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef CQUEUE_H_
 #define CQUEUE_H_

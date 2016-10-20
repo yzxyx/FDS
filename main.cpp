@@ -1,9 +1,4 @@
-/*
- * main.cpp
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #include "CListSimple.h"
 #include "CListDouble.h"

@@ -1,9 +1,3 @@
-/*
- * CStack.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
 
 #ifndef CSTACK_H_
 #define CSTACK_H_

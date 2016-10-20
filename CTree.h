@@ -1,9 +1,4 @@
-/*
- * CTree.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef CTREE_H_
 #define CTREE_H_

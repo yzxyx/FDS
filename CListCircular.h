@@ -1,9 +1,4 @@
-/*
- * CListCircular.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef CLISTCIRCULAR_H_
 #define CLISTCIRCULAR_H_

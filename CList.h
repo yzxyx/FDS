@@ -1,9 +1,4 @@
-/*
- * CList.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef CLIST_H_
 #define CLIST_H_

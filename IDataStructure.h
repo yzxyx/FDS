@@ -1,9 +1,4 @@
-/*
- * iDataStructure.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef IDATASTRUCTURE_H_
 #define IDATASTRUCTURE_H_

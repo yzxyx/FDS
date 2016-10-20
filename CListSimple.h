@@ -1,9 +1,4 @@
-/*
- * CListSimple.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
+
 
 #ifndef CLISTSIMPLE_H_
 #define CLISTSIMPLE_H_

@@ -1,9 +1,3 @@
-/*
- * CNode.h
- *
- *  Created on: 3 de oct. de 2016
- *      Author: christian
- */
 
 #ifndef CNODE_H_
 #define CNODE_H_
