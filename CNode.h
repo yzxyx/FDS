@@ -21,6 +21,9 @@ public:
 	virtual void setLink(int _link, CNode<T>* _temp) {
 		this->pointers[_link] = _temp;
 	}
+	
+	
+	
 	CNode(T _data, int _links) {
 		data = _data;
 		numLinks = _links;

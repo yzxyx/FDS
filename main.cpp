@@ -73,6 +73,7 @@ int main() {
 	mySimpleList.insert(300); // observar esto !!!!
 	mySimpleList.insert(400);
 	mySimpleList.insert(500);
+	mySimpleList.erase(500);
 	mySimpleList.show(std::cout);
 	std::cout << std::endl;
 	/*

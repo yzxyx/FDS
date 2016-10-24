@@ -1,5 +1,3 @@
-
-
 #ifndef CLISTSIMPLE_H_
 #define CLISTSIMPLE_H_
 
@@ -28,9 +26,20 @@ public:
 			temp->setLink(LINKS::next, _new);
 		}
 	}
-	void erase(T) {
+	void erase(T dato) {
+		CSimpleNode<T> * _new = new CSimpleNode<T>(dato);
+		if (this->proot == 0) {
+			return;
 
+		} else {
+			CNode<T> *temp = this->proot;
+			while (temp->getLink(LINKS::next) != 0) {
+				temp = temp->getLink(LINKS::next);
+			}
+			delete(temp);
+		}
 	}
+	
 	bool search(T) {
 
 	}
