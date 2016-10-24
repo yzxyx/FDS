@@ -20,4 +20,7 @@ Profesor C.Portugal Zambrano que nos dio nuestra plantilla de trabajo.
 
 This project (FDS) is licensed under the ULASALLE License, all the rights and lefts are from J.J.L.B.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2bccc9b74393daa8a41f82d0b89c5e4cacf95a18
