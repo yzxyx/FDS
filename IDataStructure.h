@@ -1,5 +1,4 @@
 
-
 #ifndef IDATASTRUCTURE_H_
 #define IDATASTRUCTURE_H_
 

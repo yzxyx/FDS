@@ -1,5 +1,4 @@
 
-
 #ifndef CLIST_H_
 #define CLIST_H_
 #include "IDataStructure.h"

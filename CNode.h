@@ -1,7 +1,9 @@
 
+using namespace std;
 #ifndef CNODE_H_
 #define CNODE_H_
 
+#include <iostream>
 template<class T>
 class CNode {
 protected:
@@ -21,9 +23,6 @@ public:
 	virtual void setLink(int _link, CNode<T>* _temp) {
 		this->pointers[_link] = _temp;
 	}
-	
-	
-	
 	CNode(T _data, int _links) {
 		data = _data;
 		numLinks = _links;
@@ -33,7 +32,7 @@ public:
 		}
 	}
 	virtual ~CNode() {
-
+		std::cout << "Deleting node with value " << data << std::endl;
 		for (int iter = 0; iter < numLinks; iter++) {
 			pointers[iter] = 0;
 		}

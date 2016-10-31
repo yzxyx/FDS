@@ -1,5 +1,4 @@
 
-
 #ifndef CQUEUE_H_
 #define CQUEUE_H_
 
