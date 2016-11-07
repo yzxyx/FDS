@@ -4,6 +4,7 @@
 
 #include "CList.h"
 #include <cstdlib>
+
 template<class T>
 
 class CListSimple: public CList<T> {
@@ -90,7 +91,7 @@ public:
 	void clear() 
 	{
 			CNode<T> *temp = this->proot;
-			while (temp->getLink(LINKS::next) != 0 ) 
+			while (temp) 
 			{
 				free(temp);
 				temp = temp->getLink(LINKS::next);
@@ -101,7 +102,7 @@ public:
 	void show(std::ostream& out) {
 		CNode<T> * temp = this->proot;
 		while (temp->getLink(LINKS::next) != 0) {
-			out << temp->getData() << " -- "; // devuelve un object, int, float o cualquier tipo
+			out << temp->getData() << " -- "; 
 			temp = temp->getLink(LINKS::next);
 		}
 		out << temp->getData() << std::endl;
